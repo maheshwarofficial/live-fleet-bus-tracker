@@ -1,8 +1,13 @@
-<!-- ==================== MATCHING THEME HEADER BANNER ==================== -->
+<!-- ==================== CLEAN NATIVE HEADER ==================== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E0B2B,50:6D2869,100:F45D6E&height=190&section=header&text=Live%20Fleet%20%26%20Bus%20Tracker&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Real-Time%20GPS%20Transit%20Ecosystem%20%E2%80%A2%2011%20Routes%20%E2%80%A2%203%20Shifts%20%E2%80%A2%20Web%20%26%20Android&descAlignY=64&descSize=15" width="100%" />
+  <h1>🚌 Live Fleet & Corporate Bus Tracker</h1>
+  <p>
+    <code>Real-Time GPS Transit Ecosystem</code> &nbsp;•&nbsp;
+    <code>11 Live Routes</code> &nbsp;•&nbsp;
+    <code>3 Shifts</code> &nbsp;•&nbsp;
+    <code>Web & Android APK</code>
+  </p>
 </div>
-
 <!-- ==================== STATUS & METRIC BADGES ==================== -->
 <div align="center">
   <img src="https://img.shields.io/badge/Live_Routes-11_Active-F45D6E?style=for-the-badge" />
