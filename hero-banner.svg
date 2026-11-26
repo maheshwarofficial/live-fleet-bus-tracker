@@ -1,0 +1,95 @@
+<svg width="840" height="260" viewBox="0 0 840 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+    <linearGradient id="bg" x1="0" y1="0" x2="840" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#14071F" />
+      <stop offset="55%" stop-color="#250E36" />
+      <stop offset="100%" stop-color="#4A174B" />
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="34" y1="0" x2="520" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="70%" stop-color="#FFD6DC" />
+      <stop offset="100%" stop-color="#FF6B81" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0" y1="0" x2="840" y2="260" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F45D6E" stop-opacity="0.55" />
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.35" />
+    </linearGradient>
+
+    <linearGradient id="topEdge" x1="120" y1="0" x2="720" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F45D6E" stop-opacity="0" />
+      <stop offset="50%" stop-color="#F45D6E" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0" />
+    </linearGradient>
+
+    <radialGradient id="glowCoral" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(760 40) rotate(90) scale(160 220)">
+      <stop stop-color="#F45D6E" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#F45D6E" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1" />
+    </pattern>
+
+    <clipPath id="clip">
+      <rect x="1" y="1" width="838" height="258" rx="18" />
+    </clipPath>
+  </defs>
+
+  
+  <g clip-path="url(#clip)">
+    <rect x="1" y="1" width="838" height="258" rx="18" fill="url(#bg)" />
+    <rect x="1" y="1" width="838" height="258" fill="url(#grid)" />
+    <rect x="1" y="1" width="838" height="258" fill="url(#glowCoral)" />
+  </g>
+
+  <rect x="1" y="1" width="838" height="258" rx="18" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="140" y="1" width="560" height="2" fill="url(#topEdge)" />
+
+  
+  <text x="34" y="56" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="30" font-weight="800" letter-spacing="-0.5">Live Fleet &amp; Corporate Bus Tracker</text>
+  <text x="34" y="82" fill="#D8B4FE" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="13.5" font-weight="500">Real-Time GPS Transit Ecosystem  •  OSRM Road-Snapping  •  Glassmorphism UI</text>
+
+  
+  <rect x="646" y="28" width="160" height="30" rx="15" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.5" />
+  <circle cx="665" cy="43" r="4" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="678" y="47" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">PRODUCTION READY</text>
+
+  
+  <rect x="34" y="112" width="182" height="90" rx="13" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.11" />
+  <rect x="50" y="112" width="44" height="2.5" rx="1.25" fill="#F45D6E" />
+  <text x="50" y="146" fill="#FF6B81" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="24" font-weight="800">11 Routes</text>
+  <text x="50" y="168" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12" font-weight="600">Live GPS Coverage</text>
+  <text x="50" y="186" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="10.5">Road-snapped OSRM paths</text>
+
+  
+  <rect x="230" y="112" width="182" height="90" rx="13" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.11" />
+  <rect x="246" y="112" width="44" height="2.5" rx="1.25" fill="#A855F7" />
+  <text x="246" y="146" fill="#D8B4FE" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="24" font-weight="800">3 Shifts</text>
+  <text x="246" y="168" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12" font-weight="600">Auto Route Reversal</text>
+  <text x="246" y="186" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="10.5">Pickup &amp; drop-off sync</text>
+
+  
+  <rect x="426" y="112" width="182" height="90" rx="13" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.11" />
+  <rect x="442" y="112" width="44" height="2.5" rx="1.25" fill="#10B981" />
+  <text x="442" y="146" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="24" font-weight="800">₹0 Cost</text>
+  <text x="442" y="168" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12" font-weight="600">Zero External Vendor</text>
+  <text x="442" y="186" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="10.5">Built 100% in-house</text>
+
+  
+  <rect x="622" y="112" width="184" height="90" rx="13" fill="#FFFFFF" fill-opacity="0.05" stroke="#FFFFFF" stroke-opacity="0.11" />
+  <rect x="638" y="112" width="44" height="2.5" rx="1.25" fill="#38BDF8" />
+  <text x="638" y="146" fill="#38BDF8" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="21" font-weight="800">Web + APK</text>
+  <text x="638" y="168" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="12" font-weight="600">Cross-Platform App</text>
+  <text x="638" y="186" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="10.5">Capacitor Android build</text>
+
+  
+  <line x1="34" y1="220" x2="806" y2="220" stroke="#FFFFFF" stroke-opacity="0.1" />
+  <text x="34" y="242" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11.5" font-weight="500">5-Min Voice Boarding Alarm  •  Live Weather Advisory  •  Driver Quick-Connect  •  CO₂ Eco-Tracker</text>
+  <text x="688" y="242" fill="#FF6B81" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif" font-size="11.5" font-weight="700">PUBLIC SHOWCASE</text>
+</svg>
